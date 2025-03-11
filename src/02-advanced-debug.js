@@ -14,9 +14,9 @@ function goodPractices() {
       // use debugger to find out!
       debugger
 
-      // what is 'data' at each loop through out this block?
+      // what is 'data' at each loop throughout this block?
       // when will the following line of code work and when will it break?
-      let data = teamObj.player
+      let data = teamObj.players; // ✅ Corrected from 'player' to 'players'
       for (let key in data) {
         debugger
       }
@@ -25,4 +25,4 @@ function goodPractices() {
 }
 
 // then, call the function so it runs!
-goodPractices()
+goodPractices();
